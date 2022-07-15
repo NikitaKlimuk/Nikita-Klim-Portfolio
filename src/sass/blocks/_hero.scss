@@ -1,0 +1,45 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url(../img/hero_frame.jpg) no-repeat;
+    background-size: cover;
+    z-index: 1;
+    &__wrapper {
+        width: 650px;
+        height: 160px;
+        margin: 0 auto;
+        padding-top: 35.5%;
+    }
+    &__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 96px;
+        line-height: 96px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+    &__subtitle {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__chevron {
+        position: absolute;
+        bottom: -50%;
+        right: 50%;
+        transform: translateX(50%);
+        button {
+            display: block;
+            border: none;
+            font: inherit;
+            color: inherit;
+            background-color: transparent;
+        }
+    }
+}

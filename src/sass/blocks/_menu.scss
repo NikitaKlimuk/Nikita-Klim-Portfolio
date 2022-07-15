@@ -1,0 +1,19 @@
+.menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    padding-top: 31px;
+    &__list {
+        width: 402px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+    &__link {
+        a {
+            color: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.works {
+    min-height: 1400px;
+    &__title {
+        width: 158px;
+        padding-top: 32px;
+        margin: 0 auto;
+    } 
+    &__list {
+        width: 410px;
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-between;
+        padding-top: 24px;
+        margin: 0 auto;
+        a {
+            color: #000000;
+        }
+    }
+    &__wrapper {
+        padding: 40px 150px 0 150px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 32px;
+        column-gap: 38px;
+    }
+    &-item {
+        img {
+            width: 100%;
+        }
+    }
+}
