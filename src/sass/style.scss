@@ -1,0 +1,25 @@
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+@font-face {
+    font-family: 'Futura PT Book';
+    src: url('../fonts/FuturaPT-Book.eot');
+    src: url('../fonts/FuturaPT-Book.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaPT-Book.woff') format('woff'),
+    url('../fonts/FuturaPT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+    font-family: 'Futura PT Light';
+    src: url('../fonts/FuturaPT-Light.eot');
+    src: url('../fonts/FuturaPT-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/FuturaPT-Light.woff') format('woff'),
+    url('../fonts/FuturaPT-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
