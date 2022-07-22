@@ -1,14 +1,17 @@
 .hero {
     position: relative;
-    height: 100vh;
-    background: url(../img/hero_frame.jpg) no-repeat;
-    background-size: cover;
-    z-index: 1;
+    height: 100%;
+    video {
+        width: 100vw;
+        z-index: 1;
+    }
     &__wrapper {
+        position: absolute;
+        top: 70%;
+        right: 50%;
+        transform: translateX(50%);
+        z-index: 10;
         width: 650px;
-        height: 160px;
-        margin: 0 auto;
-        padding-top: 35.5%;
     }
     &__title {
         display: flex;
@@ -31,7 +34,7 @@
     }
     &__chevron {
         position: absolute;
-        bottom: -50%;
+        bottom: -70%;
         right: 50%;
         transform: translateX(50%);
         button {
