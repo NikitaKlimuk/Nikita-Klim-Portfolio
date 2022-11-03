@@ -1,11 +1,14 @@
 .about {
-    min-height: 1130px;
+    height: 1130px;
     background-color: #FAFAFA;
+    display: flex;
 
     &__wrapper {
+        margin: auto;
+        width: 100%;
         display: flex;
         justify-content: space-around;
-        margin: 120px 0 120px;
+        padding-top: 120px;
         min-height: 890px;
         background-color: #FFFFFF;
     }

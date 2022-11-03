@@ -1,0 +1,52 @@
+.lastVideos {
+    min-height: 755px;
+    background-color: #FFFFFF;
+    &__title {
+        width: 217px;
+        padding-top: 120px;
+        margin: 0 auto;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 32px;
+        color: #000000;
+        text-transform: uppercase;
+    }
+    &__slider {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        &_item {
+            width: 420px;
+            height: 388px;
+            img {
+                width: 100%;
+            }
+
+        }
+        .active {
+            width: 600px;
+            height: 510px;
+        } 
+        .title {
+            padding-top: 56px;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 36px;
+            text-align: center;
+            color: #000000;
+        }
+        .date {
+            padding-top: 24px;
+            font-family: 'Poppins';
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #000000;
+        }
+    }
+}

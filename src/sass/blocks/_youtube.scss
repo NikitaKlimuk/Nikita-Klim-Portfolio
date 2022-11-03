@@ -1,0 +1,30 @@
+.youtube {
+    video {
+        width: 100vw;
+    }
+    &__text {
+        position: absolute;
+        left: 130px;
+        top: 300px;
+        &_channel {
+            font-family: 'Poppins';
+            font-weight: 300;
+            font-size: 48px;
+            line-height: 44px;
+            color: #FFFFFF;
+        }
+        &_videos {
+            top: 24px;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            text-decoration: none;
+            &:hover {
+                color: #FFFFFF;
+            }
+        }
+    }
+}

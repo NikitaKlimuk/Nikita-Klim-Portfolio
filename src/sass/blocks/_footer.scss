@@ -1,0 +1,20 @@
+footer {
+    height: 175px;
+    .footer__title {
+        padding-top: 52px;
+        text-align: center;
+        font-family: 'Futura PT';
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    .footer__links {
+        width: 79px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+}

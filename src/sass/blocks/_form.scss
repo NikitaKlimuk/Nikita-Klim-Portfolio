@@ -1,0 +1,53 @@
+.form {
+    height: 1149px;
+    padding: 319px 0 319px;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-evenly;
+    &__contact {
+        &_title {
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 60px;
+            color: #000000;
+        }
+    }
+    form {
+        padding-top: 32px;
+        width: 400px;
+        p {
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+        }
+        button {
+            margin-top: 56px;
+            width: 400px;
+            height: 58px;
+            background: #000000;
+            border-radius: 4px;
+            font-family: 'Poppins';
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 48px;
+            color: #FFFFFF;
+        }
+        input {
+            width: 400px;
+            height: 48px;
+        }
+        textarea {
+            width: 400px;
+            min-height: 91px;
+        }
+    }
+    &_pic {
+        width: 385px;
+        img {
+            width: 100%;
+        }
+    }
+}
