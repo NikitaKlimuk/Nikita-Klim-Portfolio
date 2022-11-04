@@ -2,19 +2,18 @@
     height: 1130px;
     background-color: #FAFAFA;
     display: flex;
-
     &__wrapper {
         margin: auto;
         width: 100%;
         display: flex;
-        justify-content: space-around;
-        padding-top: 120px;
-        min-height: 890px;
+        justify-content: space-between;
+        height: 890px;
         background-color: #FFFFFF;
     }
     &__text {
         width: 550px;
         text-align: left;
+        margin-left: 280px;
         &_title {
             padding-top: 221px;
             font-family: 'Poppins';
@@ -37,14 +36,19 @@
         position: relative;
         &_first {
             z-index: 2;
-            padding-top: 109px;
+            top: 109px;
+            right: 386px;
+            position: absolute;
             width: 350px;
             img {
                 width: 100%;
             }
         }
-        &__second {
+        &_second {
             z-index: 1;
+            position: absolute;
+            top: 287px;
+            right: 131px;
             width: 310px;
             img {
                 width: 100%;
