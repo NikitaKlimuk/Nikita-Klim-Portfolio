@@ -1,11 +1,11 @@
 .form {
     height: 1149px;
-    padding: 319px 0 319px;
     background-color: #F7F7F7;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     &__contact {
         &_title {
+            width: 250px;
             font-family: 'Poppins';
             font-weight: 400;
             font-size: 40px;
@@ -14,8 +14,9 @@
         }
     }
     form {
-        padding-top: 32px;
+        margin: 319px 0 0 320px;
         width: 400px;
+        height: 529px;
         p {
             font-family: 'Poppins';
             font-weight: 400;
@@ -45,7 +46,8 @@
         }
     }
     &_pic {
-        width: 385px;
+        margin: 311px 280px 0 0;
+        width: 400px;
         img {
             width: 100%;
         }

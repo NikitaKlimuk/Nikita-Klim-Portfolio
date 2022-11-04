@@ -13,10 +13,10 @@
 <body>
     <div class="menu">
         <ul class="menu__list">
-            <li class="menu__link futura_fz_14"><a href="#">PORTFOLIO</a></li>
-            <li class="menu__link futura_fz_14"><a href="#">ABOUT</a></li>
-            <li class="menu__link futura_fz_14"><a href="#">YOUTUBE</a></li>
-            <li class="menu__link futura_fz_14"><a href="#">CONTACTS</a></li>
+            <li class="menu__link futura_fz_14"><a href="#portfolio">PORTFOLIO</a></li>
+            <li class="menu__link futura_fz_14"><a href="#about">ABOUT</a></li>
+            <li class="menu__link futura_fz_14"><a href="#youtube">YOUTUBE</a></li>
+            <li class="menu__link futura_fz_14"><a href="#contacts">CONTACTS</a></li>
         </ul>
     </div>
 
@@ -27,7 +27,7 @@
             <!-- Прописать в js условия для запуска разных форматов видео -->
         </video>
         <div class="hero__wrapper">
-            <h1 class="hero__title">Nikita Klim</h1>
+            <h1 class="hero__title">NIKITA KLIM</h1>
             <h2 class="hero__subtitle">Filmmaker, cameraman, YouTube creator</h2>
             <div class="hero__chevron">
                 <button class="chevron-down">
@@ -39,7 +39,7 @@
         </div>
     </section>
 
-    <section class="works">
+    <section class="works" id="portfolio">
         <h2 class="works__title futura_fz_32">MY WORKS</h2>
 
         <div class="works__sections">
@@ -97,7 +97,7 @@
             
             <div class="works__content">
                 <div class="works__content_item">
-                    <img src="img/" alt="1" class="slider_item">
+                    <img src="img/works/works5.jpg" alt="1" class="slider_item">
                 </div>
                 <div class="works__content_item">
                     <img src="img/works/works4.jpg" alt="2" class="works_item">
@@ -111,11 +111,11 @@
         </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="about__wrapper">
             <div class="about__text">
                 <h2 class="about__text_title">About</h2>
-                <div class="about__text_subtitle">Nikita klim is an internationally acclaimed photographer, filmmaker, YouTube creator and entrepreneur based in Gomel, Belarus. Nikita uses his platforms to inspire and help people pursue their passions behind.
+                <div class="about__text_subtitle">Nikita Klim is an internationally acclaimed photographer, filmmaker, YouTube creator and entrepreneur based in Gomel, Belarus. Nikita uses his platforms to inspire and help people pursue their passions behind.
                 <p></p>
                 Personal achievement for this Belarusian was having his work featured on two special collection coins issued by the Royal Belarusian Mint.
                 </div>
@@ -134,13 +134,13 @@
             <!-- Прописать в js условия для запуска разных форматов видео -->
         </video>
         <div class="youtube__text">
-            <div class="youtube__text_channel">My YouTube chanel</div>
-            <a href="" class="youtube__text_videos">see more vids</a>
+            <h2 class="youtube__text_channel">My YouTube chanel</h2>
+            <a href="https://www.youtube.com/@NikitaKlim" target="_blank" class="youtube__text_videos">see more vids</a>
         </div>
     </section>
 
-    <section class="lastVideos">
-        <div class="lastVideos__title">Last videos</div>
+    <section class="lastVideos" id="youtube">
+        <h2 class="lastVideos__title">Last videos</h2>
         <div class="lastVideos__slider">
             <div class="lastVideos__slider_item">
                 <img src="img/vids/vids1.jpg" alt="1" class="slider_item">
@@ -151,19 +151,23 @@
                 <img src="img/vids/vids2.jpg" alt="2" class="slider_item">
                 <div class="title">How to upload videos to the stocks?!</div>
                 <div class="date">4 february 2022</div>
+<!--                 <button type="button" class="prev"><img src="icons/left.svg" alt="left"></button>
+                <button type="button" class="next"><img src="icons/right.svg" alt="right"></button> -->
             </div>
             <div class="lastVideos__slider_item">
                 <img src="img/vids/vids3.jpg" alt="3" class="slider_item">
                 <div class="title">How to make a film effect in a video?</div>
                 <div class="date">12 june 2020</div>
             </div>
+
         </div>
     </section>
 
-    <section class="form">
+    <section class="form" id="contacts">
         <div class="form__contact">
-            <div class="form__contact_title">Get in touch</div>
+          
             <form method="post" action="form.php">
+                <h2 class="form__contact_title">Get in touch</h2>
                 Name
                 <p><input type="text" name="name"></p>
                 Email
@@ -181,10 +185,18 @@
     <footer>
         <div class="footer__title">FOLLOW</div>
         <div class="footer__links">
-            <a href=""><img src="icons/Youtube.svg" alt=""></a>
-            <a href=""><img src="icons/insta.svg" alt=""></a>
-            <a href=""><img src="icons/telegramm.svg" alt=""></a>
-            <a href=""><img src="icons/facebook.svg" alt=""></a>
+            <a href="https://www.youtube.com/@NikitaKlim" target="_blank">
+                <img src="icons/Youtube.svg" alt="Youtube link">
+            </a>
+            <a href="https://www.instagram.com/nikitklim/" target="_blank">
+                <img src="icons/insta.svg" alt="Instagram link">
+            </a>
+            <a href="https://t.me/NikitKlim" target="_blank">
+                <img src="icons/telegramm.svg" alt="Telergamm link">
+            </a>
+            <a href="https://www.facebook.com/nikitklimuk" target="_blank">
+                <img src="icons/facebook.svg" alt="Facebook link">
+            </a>
         </div>
     </footer>
 
