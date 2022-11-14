@@ -2,14 +2,14 @@
     position: relative;
     height: 100%;
     video {
-        width: 100vw;
+        width: 100%;
+        object-fit: cover;
     }
     &__wrapper {
         position: absolute;
         top: 65%;
         right: 50%;
         transform: translateX(50%);
-        z-index: 10;
         width: 650px;
     }
     &__title {
@@ -33,7 +33,7 @@
     }
     &__chevron {
         position: absolute;
-        bottom: -80%;
+        bottom: 50px;
         right: 50%;
         transform: translateX(50%);
         button {

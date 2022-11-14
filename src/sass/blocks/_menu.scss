@@ -12,8 +12,16 @@
         list-style-type: none;
     }
     &__link {
+        font-family: 'Futura PT';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0.05em;
         a {
             color: #FFFFFF;
         }
+    }
+    .hamburger {
+        display: none;
     }
 }

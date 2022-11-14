@@ -1,0 +1,113 @@
+@media (max-width: 1440px) {
+    .works {
+        &__title {
+            padding-top: 104px;
+        }
+        &__wrapper {
+            padding: 60px 94px 0 94px;
+        }
+        &__content {
+            gap: 20px;
+        }
+        &__wrapper {
+            .more_link {
+                padding: 28px 0 42px;
+            }
+        }
+    }
+    .about {
+        height: 934px;
+        &__wrapper {
+            height: 746px;
+            margin: 94px 0;
+        }
+        &__text {
+            width: 518px;
+            margin-left: 202px;
+            &_title {
+                padding-top: 200px;
+            }
+        }
+        &__pictures {
+            &_first {
+                width: 220px;
+                top: 116px;
+                right: 309px;
+
+            }
+            &_second {
+                width: 220px;
+                top: 278px;
+                right: 146px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    nav {
+        .menu {
+            position: fixed;
+            top: 0;
+            left: -50%;
+            width: 100%;
+            height: 100vh;
+            padding: 20px 15px;
+            background-color: #000000;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+            transition: 0.5s all;
+            &__list {
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                height: 420px;
+                margin: 200px auto;
+    
+            }
+            &_active {
+                left: 50%;
+            }
+            &__link {
+                font-family: 'Poppins';
+                font-weight: 400;
+                font-size: 46px;
+                line-height: 48px;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+            }
+        }
+        .hamburger {
+            display: block;
+            position: absolute;
+            right: 28px;
+            top: 28px;
+            width: 56px;
+            height: 24px;
+            z-index: 10;
+            span {
+                display: block;
+                height: 4px;
+                width: 100%;
+                background-color: #fff;
+                margin-bottom: 8px;
+                transition: 0.6s;
+            }
+        }
+    }
+    .form {
+        flex-direction: column;
+        form {
+
+        }
+    }
+      
+}
+
+@media (max-width: 440px) {
+
+}
+    
+
+
+    

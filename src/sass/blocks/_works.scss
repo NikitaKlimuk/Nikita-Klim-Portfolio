@@ -1,17 +1,16 @@
 .works {
     min-height: 400px;
     &__title {
-        width: 158px;
-        padding-top: 32px;
+        width: 338px;
+        padding-top: 140px;
         margin: 0 auto;
     } 
     &__sections {
-        width: 410px;
+        width: 432px;
         display: flex;
         flex-direction: row;
         list-style-type: none;
         justify-content: space-between;
-        padding-top: 24px;
         margin: 0 auto;
         a {
             color: #000000;
