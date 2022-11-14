@@ -22,6 +22,7 @@
 @import 'base/variables';
 @import 'base/mixins';
 
+
 * {
     position: relative;
     margin: 0;
@@ -38,3 +39,5 @@
 @import 'blocks/slider';
 @import 'blocks/form';
 @import 'blocks/footer';
+
+@import 'base/media';

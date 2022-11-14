@@ -1,13 +1,14 @@
 footer {
     height: 175px;
     .footer__title {
+        width: 156px;
+        margin: 0 auto;
         padding-top: 52px;
-        text-align: center;
         font-family: 'Futura PT';
         font-weight: 400;
         font-size: 36px;
         line-height: 44px;
-        letter-spacing: 0.1em;
+        letter-spacing: 0.12em;
         text-transform: uppercase;
         color: #000000;
     }

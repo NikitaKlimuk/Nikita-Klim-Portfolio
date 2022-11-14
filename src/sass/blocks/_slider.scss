@@ -13,6 +13,7 @@
         text-transform: uppercase;
     }
     &__slider {
+        position: relative;
         margin-top: 60px;
         padding: 0 130px;
         display: flex;
@@ -43,7 +44,7 @@
         }
         .active {
             width: 600px;
-            height: 510px;
+            height: 490px;
             margin-top: 0;
         } 
         .title {
@@ -65,6 +66,35 @@
             letter-spacing: 0.1em;
             text-transform: uppercase;
             color: #000000;
+        }
+        button {
+            display: block;
+            border: none;
+            font: inherit;
+            color: inherit;
+            background-color: transparent;
+        }
+        .chevron_left {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            left: 104px;
+            top: 26%;
+        }
+        .chevron_right {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            right: 104px;
+            top: 26%;
+        }
+    }
+    &__dots {
+        width: 90px;
+        margin: 0 auto;
+        padding: 66px 0 115px;
+        .active {
+
         }
     }
 }
