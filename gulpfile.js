@@ -87,3 +87,4 @@ gulp.task('video', function() {
 
 gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'html', 'scripts',
                                     'fonts', 'icons', 'mailer', 'images', 'video'));
+ 

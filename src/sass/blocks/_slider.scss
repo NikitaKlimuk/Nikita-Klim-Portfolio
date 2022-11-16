@@ -1,5 +1,5 @@
 .lastVideos {
-    min-height: 755px;
+    height: 880px;
     background-color: #FFFFFF;
     &__title {
         width: 220px;
@@ -13,11 +13,17 @@
         text-transform: uppercase;
     }
     &__slider {
-        position: relative;
-        margin-top: 60px;
-        padding: 0 130px;
-        display: flex;
-        justify-content: space-between;
+        height: 570px;
+        &_wrapper {
+            overflow: hidden;
+        }
+        &_inner {
+            position: relative;
+            margin-top: 60px;
+            padding: 0 130px;
+            display: flex;
+            justify-content: space-between;
+        }
         &_item {
             width: 420px;
             height: 388px;
@@ -25,7 +31,10 @@
             img {
                 width: 100%;
             }
-
+            :hover {
+                transform: scale(101%);
+                transition: 0.5s all;
+            }
         }
         .prev, .next {
             position: absolute;
@@ -79,22 +88,35 @@
             width: 24px;
             height: 24px;
             left: 104px;
-            top: 26%;
+            top: 33%;
         }
         .chevron_right {
             position: absolute;
             width: 24px;
             height: 24px;
             right: 104px;
-            top: 26%;
+            top: 33%;
         }
     }
     &__dots {
+        display: flex;
+        justify-content: space-between;
         width: 90px;
         margin: 0 auto;
         padding: 66px 0 115px;
-        .active {
-
+    }
+    &__dot {
+        display: block;
+        height: 10px;
+        width: 10px;
+        background-color: #D9D9D9;
+        border-radius: 50%;
+        padding-right: 10px;
+        transition: 0.5s all;
+        &_active {
+            width: 26px;
+            border-radius: 6px;
+            background-color: #B5B5B5;
         }
     }
 }

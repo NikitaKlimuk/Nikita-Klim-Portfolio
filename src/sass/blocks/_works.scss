@@ -60,6 +60,10 @@
             img {
                 width: 100%;
             }
+            :hover {
+                transform: scale(101%);
+                transition: 0.5s all;
+            }
         }
     }
     .show {
