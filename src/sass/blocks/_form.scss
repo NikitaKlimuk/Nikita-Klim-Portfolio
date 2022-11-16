@@ -1,9 +1,10 @@
 .form {
-    height: 1149px;
+    // height: 1149px;
     background-color: #F7F7F7;
     display: flex;
     justify-content: space-between;
     &__contact {
+
         &_title {
             width: 250px;
             font-family: 'Poppins';
@@ -14,7 +15,7 @@
         }
     }
     form {
-        margin: 319px 0 0 320px;
+        margin: 319px 0 300px 320px;
         width: 400px;
         height: 529px;
         p {

@@ -10,6 +10,9 @@
         height: 890px;
         background-color: #FFFFFF;
     }
+    &__title {
+        display: none;
+    }
     &__text {
         width: 550px;
         text-align: left;
@@ -24,7 +27,7 @@
             color: #000000;
         }
         &_subtitle {
-            padding-top: 40px;
+            padding: 32px 0 0 0;
             font-family: 'Poppins';
             font-weight: 400;
             font-size: 18px;
@@ -53,6 +56,9 @@
             img {
                 width: 100%;
             }
+        }
+        &_solo {
+            display: none;
         }
     }
 }
