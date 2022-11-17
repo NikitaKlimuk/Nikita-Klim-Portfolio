@@ -29,27 +29,11 @@
     }
 }
 
-@media (max-width: 1440px) {
-    .works {
-        &__title {
-            padding-top: 104px;
-        }
-        &__wrapper {
-            padding: 60px 94px 0 94px;
-        }
-        &__content {
-            gap: 20px;
-        }
-        &__wrapper {
-            .more_link {
-                padding: 28px 0 42px;
-            }
-        }
-    }
+@media (max-width: 1600px) {
     .about {
-        height: 960px;
+        height: 1040px;
         &__wrapper {
-            height: 900px;
+            height: 980px;
         }
         &__text {
             width: 518px;
@@ -72,6 +56,25 @@
                 width: 220px;
                 top: 278px;
                 right: 146px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1440px) {
+    .works {
+        &__title {
+            padding-top: 104px;
+        }
+        &__wrapper {
+            padding: 60px 94px 0 94px;
+        }
+        &__content {
+            gap: 20px;
+        }
+        &__wrapper {
+            .more_link {
+                padding: 28px 0 42px;
             }
         }
     }
@@ -103,16 +106,16 @@
             margin: 0 auto;
         }
         .chevron_left {
-            top: 45%;;
+            top: 190px;;
             left: 90px;
         }
         .chevron_right {
-            top: 45%;
+            top: 190px;
             right: 90px;
         }
-        &__dots{
+        /* &__dots{
             padding-top: 70px;
-        }
+        } */
     }
     .about {
         &__title {
@@ -178,7 +181,49 @@
 }
 
 @media (max-width: 950px) {
-
+    .lastVideos {
+        height: 580px;
+        &__title {
+            padding-top: 89px;
+        }
+        &__slider {
+            &_inner {
+                padding: 0 48px;
+            }
+            .title {
+                padding-top: 24px;
+            }
+            .chevron_left {
+                top: 85px;
+                left: 100px;
+            }
+            .chevron_right {
+                top: 85px;
+                right: 100px;
+            }
+        }
+        .active {
+            width: 336px;
+            height: 335px;
+        }
+        &__dots {
+            padding-top: 15px;
+        }
+    }
+    .hero {
+        &__chevron {
+            bottom: 15px;
+        }
+        &__title {
+            font-size: 75px;
+        }
+        &__subtitle {
+            font-size: 18px;
+        }
+        &__wrapper {
+            top: 58%;
+        }
+    }
 } 
 
 @media (max-width: 767px) {
@@ -232,48 +277,68 @@
             }
         }
     }
+    .hero {
+        &__title {
+            font-size: 45px;
+        }
+        &__subtitle {
+            display: none;
+        }
+        &__wrapper {
+            width: 300px;
+            top: 60%;
+        }
+        &__chevron {
+            bottom: 10px;
+        }
+    }
     .works {
         &__content {
             grid-template-columns: repeat(2, 1fr);
         }
-    }  
-}
-
-@media (max-width: 428px) {
-    .hero {
         &__title {
-            font-size: 40px;
-            line-height: 56px;
-        }
-        &__subtitle {
-            font-size: 16px;
-            line-height: 24px;
-        }
-    }
-    .works {
-        &__title {
-            width: 170px;
-            font-size: 32px;
-            line-height: 48px;
-            padding-top: 40px;
-        }
-        &__sections {
-            width: 336px;
+            padding-top: 60px;
+            font-size: 50px;
+            width: 265px;
         }
         &__wrapper {
-            padding: 28px 46px 0 28px;
+            padding: 50px 60px 0 60px;
+        }
+        &__sections {
+            width: 400px;
+        }
+    }  
+    .about {
+        &__text {
+            width: 400px;
         }
     }
-    .about {
-        &__pictures_solo {
-            img {
-                width: 336px;
+    .youtube {
+        &__text {
+            left: 60px;
+            top: 35%;
+            &_channel {
+                font-size: 40px;
             }
         }
-        &__text {
-            width: 336px;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .lastVideos {
+        &__slider {
+            .chevron_left {
+                left: 20px;
+            }
+            .chevron_right {
+                right: 20px;
+            }
         }
     }
+}
+
+@media (max-width: 550px) {
     .youtube {
         &__text {
             left: 46px;
@@ -293,32 +358,56 @@
         }
     }
     .lastVideos {
-        height: 580px;
         &__title {
-            padding-top: 89px;
+            padding-top: 60px;
         }
-        &__slider {
-            &_inner {
-                padding: 0 48px;
-            }
-            .title {
-                padding-top: 24px;
-            }
-            .chevron_left {
-                top: 135px;
-                left: 15px;
-            }
-            .chevron_right {
-                top: 135px;
-                right: 15px;
-            }
+    }
+}
+
+@media (max-width: 428px) {
+    .hero {
+        &__wrapper {
+            width: 335px;
         }
-        .active {
+        &__title {
+            font-size: 40px;
+            line-height: 56px;
+        }
+        &__chevron {
+            bottom: 9px;
+        }
+    }
+    .works {
+        &__title {
+            width: 170px;
+            font-size: 32px;
+            line-height: 48px;
+            padding-top: 40px;
+        }
+        &__sections {
             width: 336px;
-            height: 306px;
         }
-        &__dots {
-            padding-top: 50px;
+        &__wrapper {
+            padding: 28px 46px 0 46px;
+        }
+    }
+    .about {
+        &__pictures_solo {
+            img {
+                width: 336px;
+            }
+        }
+        &__text {
+            width: 336px;
+        }
+    }
+    .youtube {
+        &__text {
+            left: 20px;
+            top: 20px;
+            &_channel {
+                font-size: 25px;
+            }
         }
     }
     .form {
@@ -335,6 +424,118 @@
                     width: 336px;
                 }
             }
+        }
+    }
+    .lastVideos {
+        .active {
+            width: 280px;
+        }
+        &__slider {
+            .chevron_left {
+                top: 65px;
+            }
+            .right {
+                top: 65px;
+            }
+        }
+        .title {
+            font-size: 18px;
+        }
+        .date {
+            font-size: 12px;
+            padding-top: 10px;
+        }
+        &_inner {
+            margin-top: 25px;
+        }
+    }
+    .form {
+        &__contact {
+            form {
+                width: 280px;
+                margin: 80px 0;
+                input {
+                    width: 280px;
+                }
+                textarea {
+                    width: 280px;
+                }
+                button {
+                    width: 280px;
+                }
+            }
+            &_title {
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .hero {
+        &__title {
+            font-size: 30px;
+        }
+        &__chevron {
+            display: none;
+        }
+    }
+    .works {
+        &__title {
+            width: 132px;
+            padding: 15px 0 0;
+            font-size: 25px;
+        }
+        &__sections {
+            width: 260px;
+            font-size: 14px;
+        }
+        &__content {
+            grid-template-columns: repeat(1,1fr);
+        }
+        &__wrapper {
+            padding: 28px 30px 0 30px;
+            .more_link {
+                padding: 20px 0 30px;
+                width: 96px;
+                a {
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+    .about {
+        &__title {
+            font-size: 25px;
+        }
+        &__pictures_solo {
+            img {
+                width: 280px;
+            }
+        }
+        &__text {
+            width: 280px;
+        }
+    }
+    .lastVideos {
+        height: 390px;
+        &__title {
+            width: 151px;
+            padding-top: 25px;
+            font-size: 25px;
+        }
+        &__slider {
+            .chevron_left {
+                top: 50px;
+                left: 10px;
+            }
+            .chevron_right {
+                top: 50px;
+                right: 10px;
+            }
+        }
+        .active {
+            height: 265px;
         }
     }
 }
