@@ -24,17 +24,16 @@
         color: #FFFFFF;
     }
     &__subtitle {
-        display: none;
-        /* font-family: 'Poppins';
+        font-family: 'Poppins';
         font-weight: 400;
         font-size: 20px;
         line-height: 24px;
         text-align: center;
-        color: #FFFFFF; */
+        color: #FFFFFF;
     }
     &__chevron {
         position: absolute;
-        bottom: 50px;
+        bottom: 40px;
         right: 50%;
         transform: translateX(50%);
         button {

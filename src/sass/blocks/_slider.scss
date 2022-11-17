@@ -14,9 +14,6 @@
     }
     &__slider {
         height: 570px;
-        &_wrapper {
-            overflow: hidden;
-        }
         &_inner {
             position: relative;
             margin-top: 60px;
@@ -88,14 +85,14 @@
             width: 24px;
             height: 24px;
             left: 104px;
-            top: 33%;
+            top: 130px;
         }
         .chevron_right {
             position: absolute;
             width: 24px;
             height: 24px;
             right: 104px;
-            top: 33%;
+            top: 130px;
         }
     }
     &__dots {
