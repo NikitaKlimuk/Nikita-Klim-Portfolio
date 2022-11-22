@@ -28,9 +28,11 @@
             img {
                 width: 100%;
             }
-            :hover {
-                transform: scale(101%);
-                transition: 0.5s all;
+            a {
+                :hover {
+                    transform: scale(101%);
+                    transition: 0.5s all;
+                }
             }
         }
         .prev, .next {
@@ -100,6 +102,7 @@
         justify-content: space-between;
         width: 90px;
         margin: 0 auto;
+        padding-top: 70px;
     }
     &__dot {
         display: block;
