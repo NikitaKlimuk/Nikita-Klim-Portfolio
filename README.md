@@ -1,6 +1,6 @@
 # Portfolio-site
 
-One-page portfolio site, with examples of work on commercial videography.
+Single-page portfolio site, with examples of work on commercial videography.
 
 Technology Stack:
 Javascript, HTML, SASS, Gulp, video, Vimeo API, Pixel perfect
