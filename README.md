@@ -1,5 +1,8 @@
 # Portfolio-site
 
+Project in progress.
+Preview: https://nikitaklimuk.github.io
+
 Single-page portfolio site, with examples of work on commercial videography.
 
 Technology Stack:
