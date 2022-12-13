@@ -1,0 +1,65 @@
+[
+    {
+        "category": "wedding",
+        "id": 1,
+        "imgSrc": "img/works/works1.jpg",
+        "title": "",
+        "url": ""
+    },
+    {
+        "category": "wedding",
+        "id": 2,
+        "imgSrc": "img/works/works2.jpg",
+        "title": "",
+        "url": ""
+    },
+    {
+        "category": "wedding",
+        "id": 3,
+        "imgSrc": "img/works/works3.jpg",
+        "title": "",
+        "url": ""
+    },
+    {
+        "category": "clips",
+        "id": 4,
+        "imgSrc": "img/works/works4.jpg",
+        "title": "",
+        "url": ""
+    },
+    {
+        "category": "clips",
+        "id": 5,
+        "imgSrc": "img/works/works5.jpg",
+        "title": "",
+        "url": ""
+    },
+    {
+        "category": "clips",
+        "id": 6,
+        "imgSrc": "img/works/works6.jpg",
+        "title": "",
+        "url": ""
+    },
+    {
+        "category": "shorts",
+        "id": 7,
+        "imgSrc": "img/works/works1.jpg",
+        "title": "",
+        "url": ""
+    },
+    {
+        "category": "shorts",
+        "id": 8,
+        "imgSrc": "img/works/works2.jpg",
+        "title": "",
+        "url": ""
+    },
+    {
+        "category": "shorts",
+        "id": 9,
+        "imgSrc": "img/works/works3.jpg",
+        "title": "",
+        "url": ""
+    }
+]
