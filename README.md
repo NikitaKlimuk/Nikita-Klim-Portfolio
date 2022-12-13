@@ -6,7 +6,7 @@ Preview: https://nikitaklimuk.github.io
 Single-page portfolio site, with examples of work on commercial videography.
 
 Technology Stack:
-Javascript, HTML, SASS, Gulp, video, Vimeo API, Pixel perfect
+Javascript, HTML, SASS, Gulp, video, Vimeo API, Pixel perfect, JSON
 
 The site is developed on native JS, using Vimeo API for embedding video clips. SASS preprocessor was used for styles. Full adaptation for different screen resolutions. Layout in exact match with the original design.
 
