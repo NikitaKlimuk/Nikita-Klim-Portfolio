@@ -2,7 +2,7 @@
     min-height: 400px;
     &__title {
         width: 338px;
-        padding-top: 140px;
+        padding-top: 100px;
         margin: 0 auto;
     } 
     &__sections {
@@ -26,7 +26,7 @@
         padding: 40px 150px 0 150px;
         .more_link {
             width: 113px;
-            padding: 58px 0 58px;
+            padding: 0 0 58px;
             margin: 0 auto;
             font-family: 'Poppins';
             font-weight: 400;
@@ -56,6 +56,7 @@
         row-gap: 32px;
         column-gap: 32px;
         display: grid;
+        padding-bottom: 58px;
         &_item {
             img {
                 width: 100%;

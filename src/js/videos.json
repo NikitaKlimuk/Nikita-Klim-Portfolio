@@ -1,65 +1,92 @@
 [
     {
         "category": "wedding",
-        "id": 1,
-        "imgSrc": "img/works/works1.jpg",
-        "title": "",
-        "url": ""
+        "imgSrc": "img/works/wedding/MashaMisha.jpg",
+        "title": "Wedding Dasha & Artur",
+        "url": "https://vimeo.com/469436283"
     },
     {
         "category": "wedding",
-        "id": 2,
-        "imgSrc": "img/works/works2.jpg",
-        "title": "",
-        "url": ""
+        "imgSrc": "img/works/wedding/ElinaDima.jpg",
+        "title": "Wedding Elina & Dima",
+        "url": "https://vimeo.com/532623586"
     },
     {
         "category": "wedding",
-        "id": 3,
-        "imgSrc": "img/works/works3.jpg",
-        "title": "",
-        "url": ""
+        "imgSrc": "img/works/wedding/DashaArtur.jpg",
+        "title": "Wedding Dasha & Artur",
+        "url": "https://vimeo.com/469436283"
+    },
+    {
+        "category": "wedding",
+        "imgSrc": "img/works/wedding/DianaDenis.jpg",
+        "title": "Wedding Diana & Denis",
+        "url": "https://vimeo.com/530501188"
+    },
+    {
+        "category": "wedding",
+        "imgSrc": "img/works/wedding/LenaKolya.jpg",
+        "title": "Wedding Dasha & Artur",
+        "url": "https://vimeo.com/524861809"
+    },
+    {
+        "category": "wedding",
+        "imgSrc": "img/works/wedding/MarinaMisha.jpg",
+        "title": "Wedding Dasha & Artur",
+        "url": "https://vimeo.com/524843741"
     },
     {
         "category": "clips",
-        "id": 4,
-        "imgSrc": "img/works/works4.jpg",
-        "title": "",
-        "url": ""
+        "imgSrc": "img/works/clips/gerdaClip.jpg",
+        "title": "Sorry Gerda music clip",
+        "url": "https://www.youtube.com/watch?v=394yYPulmqQ"
     },
     {
         "category": "clips",
-        "id": 5,
-        "imgSrc": "img/works/works5.jpg",
-        "title": "",
-        "url": ""
+        "imgSrc": "img/works/clips/nasledie.jpg",
+        "title": "NASLEDIE",
+        "url": "https://vimeo.com/369309576"
     },
     {
         "category": "clips",
-        "id": 6,
-        "imgSrc": "img/works/works6.jpg",
-        "title": "",
-        "url": ""
+        "imgSrc": "img/works/clips/MashaPasha.jpg",
+        "title": "Epic wedding clip",
+        "url": "https://vimeo.com/573041661"
+    },
+    {
+        "category": "clips",
+        "imgSrc": "img/works/clips/petrenkoMK.jpg",
+        "title": "Viktoria Petrenko MK",
+        "url": "https://vimeo.com/444921972"
+    },
+    {
+        "category": "clips",
+        "imgSrc": "img/works/clips/kukli.jpg",
+        "title": "Franch kukli",
+        "url": "https://vimeo.com/444921972"
+    },
+    {
+        "category": "clips",
+        "imgSrc": "img/works/clips/karni.jpg",
+        "title": "Karni music clip",
+        "url": "https://vimeo.com/457920493"
     },
     {
         "category": "shorts",
-        "id": 7,
-        "imgSrc": "img/works/works1.jpg",
-        "title": "",
-        "url": ""
+        "imgSrc": "img/works/shorts/VHS.jpg",
+        "title": "VHS editing",
+        "url": "https://vimeo.com/781163104"
     },
     {
         "category": "shorts",
-        "id": 8,
-        "imgSrc": "img/works/works2.jpg",
-        "title": "",
-        "url": ""
+        "imgSrc": "img/works/shorts/mtirala.jpg",
+        "title": "mtirala nationsl park",
+        "url": "https://vimeo.com/781165556"
     },
     {
         "category": "shorts",
-        "id": 9,
-        "imgSrc": "img/works/works3.jpg",
-        "title": "",
-        "url": ""
+        "imgSrc": "img/works/shorts/newEar.jpg",
+        "title": "special video new Ear",
+        "url": "https://vimeo.com/781161284"
     }
 ]

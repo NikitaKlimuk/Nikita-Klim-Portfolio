@@ -99,7 +99,9 @@ function renderVideos(arr) {
     arr.forEach((item) => {
         const videosHTML = `
                 <div class="works__content_item">
-                    <img src="${item.imgSrc}" alt="${item.title}" class="works_item" id="${item.id}">
+                    <a href="${item.url}" target="_blank">
+                        <img src="${item.imgSrc}" alt="${item.title}" class="works_item" id="${item.id}">
+                    </a>
                 </div>
         `
         wrapper.insertAdjacentHTML('beforeend', videosHTML);
