@@ -15,7 +15,7 @@ Below are screenshots showing basic information about the site.
 ## Hero section with reels
 <img width="1680" alt="hero reels" src="https://user-images.githubusercontent.com/44801567/204806583-c9c945ea-f732-4a93-b692-b5f28ed460b0.png">
 
-## Main tabs
+## Main tabs (whith random works)
 ![Main tabs](https://user-images.githubusercontent.com/44801567/207824329-6106f445-a147-4323-827d-e4ca34bb18f3.png)
 
 ## Slider
