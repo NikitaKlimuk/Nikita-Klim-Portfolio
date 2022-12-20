@@ -3,11 +3,11 @@
     background-color: #FAFAFA;
     display: flex;
     &__wrapper {
-        margin: auto;
         width: 100%;
+        margin: auto;
         display: flex;
         justify-content: space-between;
-        height: 890px;
+        height: 840px;
         background-color: #FFFFFF;
     }
     &__title {
@@ -15,10 +15,10 @@
     }
     &__text {
         width: 550px;
+        padding-top: 221px;
+        margin-left: 25%;
         text-align: left;
-        margin-left: 280px;
         &_title {
-            padding-top: 221px;
             font-family: 'Poppins';
             font-weight: 400;
             font-size: 40px;
@@ -36,26 +36,11 @@
         }
     }
     &__pictures {
-        position: relative;
-        &_first {
-            z-index: 2;
-            top: 109px;
-            right: 386px;
-            position: absolute;
-            width: 350px;
-            img {
-                width: 100%;
-            }
-        }
-        &_second {
-            z-index: 1;
-            position: absolute;
-            top: 287px;
-            right: 131px;
-            width: 350px;
-            img {
-                width: 100%;
-            }
+        margin-right: 25%;
+        padding-top: 70px;
+        width: 350px;
+        img {
+            width: 100%;
         }
         &_solo {
             display: none;

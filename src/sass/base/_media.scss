@@ -1,4 +1,12 @@
 @media (max-width: 1750px) {
+    .about {
+        &__text {
+            margin-left: 20%;
+        }
+        &__pictures {
+            margin-right: 20%;
+        }
+    }
     .lastVideos {
         &__slider {
             height: 550px;
@@ -31,32 +39,14 @@
 
 @media (max-width: 1600px) {
     .about {
-        height: 1040px;
-        &__wrapper {
-            height: 980px;
-        }
         &__text {
-            width: 518px;
-            margin: 0 0 0 202px;
-            &_title {
-                padding-top: 200px;
-            }
-            &_subtitle {
-                padding: 20px 0 32px;
-            }
+            margin-left: 15%;
         }
         &__pictures {
-            &_first {
-                width: 220px;
-                top: 116px;
-                right: 309px;
-
-            }
-            &_second {
-                width: 220px;
-                top: 278px;
-                right: 146px;
-            }
+            margin-right: 15%;
+        }
+        &__wrapper {
+            height: 890px;
         }
     }
 }
@@ -71,10 +61,11 @@
         }
         &__content {
             gap: 20px;
+            padding-bottom: 28px;
         }
         &__wrapper {
             .more_link {
-                padding: 28px 0 42px;
+                padding: 0 0 42px;
             }
         }
     }
@@ -145,6 +136,9 @@
             margin: 0 auto;
             &_title {
                 display: none;
+            }
+            &_subtitle {
+                padding-bottom: 20px;
             }
         }
     }
@@ -309,6 +303,9 @@
         }
     }  
     .about {
+        &__wrapper {
+            height: 950px;
+        }
         &__text {
             width: 400px;
         }
